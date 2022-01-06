@@ -99,9 +99,9 @@ void sapxepSV(SinhVien SV[], int n)
         {
             if (SV[i].diemTB > SV[j].diemTB)
             {
-                float tmp = SV[i].diemTB;
-                SV[i].diemTB = SV[j].diemTB;
-                SV[j].diemTB = tmp;
+                SinhVien tmp = SV[i];
+                SV[i] = SV[j];
+                SV[j] = tmp;
             }
         }
     }
