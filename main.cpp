@@ -108,6 +108,7 @@ void sapxepSV(SinhVien SV[], int n)
     for (int i = 0; i < n; i++)
     {
         xuatSV(SV[i]);
+        cout << "Diem TB: " << SV[i].diemTB << endl;
     }
 }
 void xeploaiSV(SinhVien SV[], int n)
